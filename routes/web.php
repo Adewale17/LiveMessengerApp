@@ -31,6 +31,6 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-Route::group([Middleware => 'auth'],function () {
+Route::group(['middleware' => 'auth'],function () {
 
 });
